@@ -1,0 +1,1 @@
+# ficheiro principal do sistema
