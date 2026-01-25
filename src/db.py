@@ -2,10 +2,10 @@ import mysql.connector
 
 def conectar():
     return mysql.connector.connect(
-        host="localhost",
+        host="127.0.0.1",
         user="root",
-        password="",  # se tu definiste senha, coloca aqui
-        database="smartcanteen"
+        password="12345",  # se tu definiste senha, coloca aqui
+        database="localhost"
     )
 
 # teste de conexão
